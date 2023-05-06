@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 import sqlite3 from 'sqlite3';
 
 const app = express();
-const port = 5000;
+const port = 5104;
 const dbFileName = "leadsDB.sqlite3";
 
 let db = null;
